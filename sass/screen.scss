@@ -1,0 +1,102 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities/general/clearfix";
+@import "compass/typography/lists/bullets";
+@import "susy";
+
+$total-columns:	12;            // 1em gutters between columns
+$grid-padding: 1em;
+$section-header-color : #FF0000;
+
+
+$container-style: static;
+
+body {
+	font-family: "Helvetica";
+}
+
+.page {
+	//@include susy-grid-background;
+	@include container;
+
+	  // header and footer are full-width by default.
+	header, section, footer { 
+		@include clearfix;
+		margin-bottom: 30px;
+	}
+
+	header {
+		margin-top: 20px;
+	}
+
+	header p, header span {
+		color: #777;
+		font-size: 0.8em;
+	}
+
+	article header p, article header span {
+		font-size: 1em;
+	}
+
+	h1 {
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	section h2{
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: dotted 1px #000;
+	}
+
+	section article ul {
+		margin-left: 20px; 
+		list-style: disc; 
+	}
+
+	section#skills article {
+		@include span-columns(2,12);
+		@include nth-omega(6n);	
+	}
+
+	section#experience article, section#education article {
+		@include span-columns(6,12);
+		@include nth-omega(2n);
+		margin-bottom: 20px;
+	}
+
+
+	section article h1 {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+
+	section article header {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+
+	section article footer {
+		margin: 0px;
+		font-size: 0.8em;
+		margin-top: 10px;
+		color : #777; 
+
+	}
+
+	section article article h1 {
+		color: #00f;
+	}
+
+	.reference span {
+		display: block;
+	}
+}
+
+
