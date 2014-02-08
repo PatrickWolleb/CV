@@ -1,4 +1,4 @@
-3.2.3 (Media Mark)
+3.2.10 (Media Mark)
 bb8bb3bc11841efd78380d652cc7aeb49b6b759d
 o:Sass::Tree::RootNode
 :@template"$"// ---------------------------------------------------------------------------
@@ -287,123 +287,152 @@ bb8bb3bc11841efd78380d652cc7aeb49b6b759d
   $gutter-width: $default-gutter;
   $grid-padding: $default-padding;
 }
-:@has_childrenT:@options{ :@children["o:Sass::Tree::CommentNode
 :
-@type:silent;@;	[ :@value["a/* ---------------------------------------------------------------------------
- * Imports */:
-@lineio:Sass::Tree::ImportNode;0:@imported_filename"'compass/utilities/general/clearfix;@;	[ :@imported_file0;i	o;;0;"compass/css3/box-sizing;@;	[ ;0;i
-o;
-
-;;;@;	[ ;["k/* ---------------------------------------------------------------------------
- * Border-Box Sizing */;io;
-
-;;;@;	[ ;["g/* Apply the border-box sizing model to all elements
- * and adjust the grid math appropriately. */;io:Sass::Tree::MixinDefNode:
-@name"border-box-sizing;T;@;	[o:Sass::Tree::VariableNode:
-@expro:Sass::Script::Bool;@;T;i;"border-box-sizing;@;	[ :@guarded0;io:Sass::Tree::RuleNode;T;@:
-@tabsi ;	[o:Sass::Tree::MixinNode;"box-sizing;@;	[ :@splat0;i:@keywords{ :
-@args[o:Sass::Script::String	;:identifier;@;"border-box;i:
-@rule["*:@parsed_ruleso:"Sass::Selector::CommaSequence:@members[o:Sass::Selector::Sequence;#[o:#Sass::Selector::SimpleSequence
-;#[o:Sass::Selector::Universal:@filename" ;i:@namespace0:@sourceso:Set:
-@hash{ :@subject0;'@4;i;'@4;i;i;0;i;[ o;
-
-;;;@;	[ ;["c/* ---------------------------------------------------------------------------
- * Container */;io;
-
-;;;@;	[ ;["d/* Set the width of a container
+@linei:@options{ :@has_childrenT:@children["o:Sass::Tree::CommentNode
+;i;@;
+[ :
+@type:silent:@value["a/* ---------------------------------------------------------------------------
+ * Imports */o:Sass::Tree::ImportNode;0;i	;@:@imported_file0;
+[ :@imported_filename"'compass/utilities/general/clearfixo;;0;i
+;@;0;
+[ ;"compass/css3/box-sizingo;
+;i;@;
+[ ;;;["k/* ---------------------------------------------------------------------------
+ * Border-Box Sizing */o;
+;i;@;
+[ ;;;["g/* Apply the border-box sizing model to all elements
+ * and adjust the grid math appropriately. */o:Sass::Tree::MixinDefNode;i;@:
+@name"border-box-sizing;	T;
+[o:Sass::Tree::VariableNode;i:@guarded0;@;"border-box-sizing:
+@expro:Sass::Script::Bool;i;@;T;
+[ o:Sass::Tree::RuleNode:
+@rule["*;i;@:@parsed_ruleso:"Sass::Selector::CommaSequence:@filename" ;i:@members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence
+;@&;i;[o:Sass::Selector::Universal;@&:@namespace0;i:@sourceso:Set:
+@hash{ :@subject0;	T;
+[o:Sass::Tree::MixinNode:@keywords{ ;i;@;"box-sizing;
+[ :@splat0:
+@args[o:Sass::Script::String	;i;@;:identifier;"border-box:
+@tabsi ;(0;)[ o;
+;i;@;
+[ ;;;["c/* ---------------------------------------------------------------------------
+ * Container */o;
+;i;@;
+[ ;;;["d/* Set the width of a container
  *
- *  $columns  : The number of columns in the Grid Layout. */;io;;"set-container-width;T;@;	[o;;o:Sass::Script::Funcall;"container-outer-width;@;0;i ;{ ;[o:Sass::Script::Variable	;"columns;@:@underscored_name"columns;i ;"
-width;@;	[ ;0;i u:Sass::Tree::IfNodeÁ[o:Sass::Script::Operation
-:@operator:eq:@options{ :@operand2o:Sass::Script::String	:
-@type:string;@:@value"static:
-@linei":@operand1o:Sass::Script::Variable	:
+ *  $columns  : The number of columns in the Grid Layout. */o;;i;@;"set-container-width;	T;
+[o;;i ;0;@;"
+width;o:Sass::Script::Funcall;'{ ;i ;@;"container-outer-width;(0;)[o:Sass::Script::Variable	;i ;@;"columns:@underscored_name"columns;
+[ u:Sass::Tree::IfNodeÁ[o:Sass::Script::Operation
+:
+@linei":@operand1o:Sass::Script::Variable	;i":@options{ :
 @name"
-style;@:@underscored_name"
-style;i";i"u:Sass::Tree::IfNodeS[00[u:Sass::Tree::IfNode3[o:Sass::Script::Operation
-:@operator:eq:@options{ :@operand2o:Sass::Script::String	:
-@type:string;@:@value"
-fluid:
-@linei%:@operand1o:Sass::Script::Variable	:
+style:@underscored_name"
+style;	@:@operator:eq:@operand2o:Sass::Script::String	;i";	@:
+@type:string:@value"staticu:Sass::Tree::IfNodeS[00[u:Sass::Tree::IfNode3[o:Sass::Script::Operation
+:
+@linei%:@operand1o:Sass::Script::Variable	;i%:@options{ :
 @name"
-style;@:@underscored_name"
-style;i%;i%u:Sass::Tree::IfNodeÜ[00[o:Sass::Tree::MixinNode:
-@name"if-rem:@options{ :@children[ :@splat0:
-@linei(:@keywords{ :
-@args[o:Sass::Script::String	:
-@type:identifier;@	:@value"max-width;
-i(o:Sass::Script::Variable	;"
-width;@	:@underscored_name"
+style:@underscored_name"
+style;	@:@operator:eq:@operand2o:Sass::Script::String	;i%;	@:
+@type:string:@value"
+fluidu:Sass::Tree::IfNodeÜ[00[o:Sass::Tree::MixinNode:@keywords{ :
+@linei(:@options{ :
+@name"if-rem:@children[ :@splat0:
+@args[o:Sass::Script::String	;i(;@	:
+@type:identifier:@value"max-widtho:Sass::Script::Variable	;i(;@	;	"
+width:@underscored_name"
+widthu:Sass::Tree::IfNoder[o:Sass::Script::Variable	:
+@linei):@options{ :
+@name"legacy-support-for-ie6:@underscored_name"legacy_support_for_ie60[u:Sass::Tree::IfNode⁄[o:Sass::Script::Operation
+:
+@linei*:@operand1o:Sass::Script::Funcall:@keywords{ ;i*:@options{ :
+@name"	unit:@splat0:
+@args[o:Sass::Script::Variable	;i*;
+@	;"
+width:@underscored_name"
 width;
-i(u:Sass::Tree::IfNoder[o:Sass::Script::Variable	:
-@name"legacy-support-for-ie6:@options{ :@underscored_name"legacy_support_for_ie6:
-@linei)0[u:Sass::Tree::IfNode⁄[o:Sass::Script::Operation
-:@operator:eq:@options{ :@operand2o:Sass::Script::String	:
-@type:string;@:@value"rem:
-@linei*:@operand1o:Sass::Script::Funcall:
-@name"	unit;@:@splat0;i*:@keywords{ :
-@args[o:Sass::Script::Variable	;"
-width;@:@underscored_name"
-width;i*;i*u:Sass::Tree::IfNodeº[00[o:Sass::Tree::PropNode:
-@name["_width:@options{ :
-@tabsi :@children[ :@prop_syntax:new:@valueo:Sass::Script::Variable	;"
-width;@
-:@underscored_name"
-width:
-@linei-;i-[o:Sass::Tree::PropNode;["_width;@:
-@tabsi :@children[ :@prop_syntax:new;o;;"
-round;@;0;i+;{ ;[o;;"convert-length;@;0;i+;{ ;[o;	;"
-width;@;"
-width;i+o;
-	;:identifier;@;"px;i+;i+[u;¨[o:Sass::Script::Operation
-:@operator:eq:@options{ :@operand2o:Sass::Script::String	:
-@type:string;@:@value"%:
-@linei&:@operand1o:Sass::Script::Funcall:
-@name"	unit;@:@splat0;i&:@keywords{ :
-@args[o:Sass::Script::Variable	;"
-width;@:@underscored_name"
-width;i&;i&0[o:Sass::Tree::MixinNode;"if-rem;@:@children[ ;0;i&;{ ;[o;
-	;:identifier;@;"
-width;i&o;	;"
-width;@;"
-width;i&[o:Sass::Tree::MixinNode;"if-rem;@:@children[ :@splat0;i#:@keywords{ :
-@args[o;
-	;:identifier;@;"
-width;i#o;	;"
-width;@;"
-width;i#;0;i;[[o;.;"columns;@;/"columnso;.	;"total-columns;@;/"total_columns;i[o;.;"
-style;@;/"
-styleo;.	;"container-style;@;/"container_style;io;
-
-;;;@;	[ ;["o/* Set the outer grid-containing element(s).
+@	:@operator:eq:@operand2o:Sass::Script::String	;i*;
+@	:
+@type:string:@value"remu:Sass::Tree::IfNodeº[00[o:Sass::Tree::PropNode:
+@linei-:@options{ :
+@name["_width:@prop_syntax:new:@children[ :
+@tabsi :@valueo:Sass::Script::Variable	;i-;@;"
+width:@underscored_name"
+width[o:Sass::Tree::PropNode;i+;
+@	;["_width:@prop_syntax:new:@children[ :
+@tabsi ;o;;	{ ;i+;
+@	;"
+round;0;[o;;	{ ;i+;
+@	;"convert-length;0;[o;	;i+;
+@	;"
+width;"
+widtho;	;i+;
+@	;:identifier;"px[u;¨[o:Sass::Script::Operation
+:
+@linei&:@operand1o:Sass::Script::Funcall:@keywords{ ;i&:@options{ :
+@name"	unit:@splat0:
+@args[o:Sass::Script::Variable	;i&;
+@	;"
+width:@underscored_name"
+width;
+@	:@operator:eq:@operand2o:Sass::Script::String	;i&;
+@	:
+@type:string:@value"%0[o:Sass::Tree::MixinNode;	{ ;i&;
+@	;"if-rem:@children[ ;0;[o;	;i&;
+@	;:identifier;"
+widtho;	;i&;
+@	;"
+width;"
+width[o:Sass::Tree::MixinNode:@keywords{ ;i#;	@;
+"if-rem:@children[ :@splat0:
+@args[o;	;i#;	@;:identifier;"
+widtho;	;i#;	@;
+"
+width;"
+width;(0;)[[o;.;@;"columns;/"columnso;.	;i;@;"total-columns;/"total_columns[o;.;@;"
+style;/"
+styleo;.	;i;@;"container-style;/"container_styleo;
+;i4;@;
+[ ;;;["o/* Set the outer grid-containing element(s).
  *
- *  $columns  : The number of columns in the container. */;i4o;;"apply-container;T;@;	[
-o;;"pie-clearfix;@;	[ ;0;i:;{ ;[ o;;"set-container-width;@;	[ ;0;i;;{ ;[o;.	;"columns;@;/"columns;i;o;;"if-rem;@;	[ ;0;i<;{ ;[o;	;;;@;"padding-left;i<o;.	;"grid-padding;@;/"grid_padding;i<o;;"if-rem;@;	[ ;0;i=;{ ;[o;	;;;@;"padding-right;i=o;.	;"grid-padding;@;/"grid_padding;i=o:Sass::Tree::PropNode;["margin;T;@;i ;	[o;1;["	left;@;i ;	[ :@prop_syntax:new;o;;;;@;"	auto;i>o;1;["
-right;@;i ;	[ ;2;3;o;;;;@;"	auto;i>;2;3;o;;;;@;" ;i>;0;i9;[[o;.;"columns;@;/"columnso;.	;"total-columns;@;/"total_columns;i8o;
-
-;;;@;	[ ;["∂/* Set one or more layouts on a grid-containing element at any number of media-query breakpoints.
+ *  $columns  : The number of columns in the container. */o;;i9;@;"apply-container;	T;
+[
+o;&;'{ ;i:;@;"pie-clearfix;
+[ ;(0;)[ o;&;'{ ;i;;@;"set-container-width;
+[ ;(0;)[o;.	;i;;@;"columns;/"columnso;&;'{ ;i<;@;"if-rem;
+[ ;(0;)[o;*	;i<;@;;+;"padding-lefto;.	;i<;@;"grid-padding;/"grid_paddingo;&;'{ ;i=;@;"if-rem;
+[ ;(0;)[o;*	;i=;@;;+;"padding-righto;.	;i=;@;"grid-padding;/"grid_paddingo:Sass::Tree::PropNode;i>;@;["margin:@prop_syntax:new;	T;
+[o;1;i>;@;["	left;2;3;
+[ ;,i ;o;*;@;;+;"	autoo;1;i>;@;["
+right;2;3;
+[ ;,i ;o;*;@;;+;"	auto;,i ;o;*;@;;+;" ;(0;)[[o;.;@;"columns;/"columnso;.	;i8;@;"total-columns;/"total_columnso;
+;iA;@;
+[ ;;;["∂/* Set one or more layouts on a grid-containing element at any number of media-query breakpoints.
  *
  * $media-layout-1        : [default:$total-columns] A list of values including -
  *                        : One unitless number (representing columns in a layout)
  *                        : Two optional lengths (representing min and max-width media-query breakpoints).
- * $media-layout-2 ...-10 : [optional] Same as $media-layout-1 */;iAo;;"container;T;@;	[o;;o;-;"compact;@;0;iS;{ ;[o;.	;"media-layout-2;@;/"media_layout_2;iSo;.	;"media-layout-3;@;/"media_layout_3;iSo;.	;"media-layout-4;@;/"media_layout_4;iSo;.	;"media-layout-5;@;/"media_layout_5;iSo;.	;"media-layout-6;@;/"media_layout_6;iSo;.	;"media-layout-7;@;/"media_layout_7;iSo;.	;"media-layout-8;@;/"media_layout_8;iSo;.	;"media-layout-9;@;/"media_layout_9;iSo;.	;"media-layout-10;@;/"media_layout_10;iS;"media-layouts;@;	[ ;0;iSu;05[o:Sass::Script::Funcall:
-@name"is-default-layout:@options{ :@splat0:
-@lineiU:@keywords{ :
-@args[o:Sass::Script::Variable	;"media-layout-1;@:@underscored_name"media_layout_1;	iUu:Sass::Tree::IfNode[00[o:Sass::Tree::MixinNode:
-@name"at-breakpoint:@has_childrenT:@options{ :@children[o; ;"apply-container;@	;	[ :@splat0:
-@lineiY:@keywords{ :
-@args[ ;
-0;iX;{ ;[o:Sass::Script::Variable	;"media-layout-1;@	:@underscored_name"media_layout_1;iX[o:Sass::Tree::MixinNode;"apply-container;@:@children[ ;0;	iV;
-{ ;[ o:Sass::Tree::EachNode;T;@:	@var"ml;	[u;0[o:Sass::Script::Variable	:
-@name"ml:@options{ :@underscored_name"ml:
-@linei^0[o:Sass::Tree::MixinNode;"at-breakpoint:@has_childrenT;@:@children[o;
-;"set-container-width;@;[ :@splat0;	i`:@keywords{ :
-@args[ ;0;	i_;{ ;[o; 	;"ml;@;"ml;	i_:
-@listo;.	;"media-layouts;@;/"media_layouts;i];i];0;iR;[[o;.;"media-layout-1;@;/"media_layout_1o;.	;"total-columns;@;/"total_columns;iH[o;.;"media-layout-2;@;/"media_layout_2o;;@;F;iI[o;.;"media-layout-3;@;/"media_layout_3o;;@;F;iJ[o;.;"media-layout-4;@;/"media_layout_4o;;@;F;iK[o;.;"media-layout-5;@;/"media_layout_5o;;@;F;iL[o;.;"media-layout-6;@;/"media_layout_6o;;@;F;iM[o;.;"media-layout-7;@;/"media_layout_7o;;@;F;iN[o;.;"media-layout-8;@;/"media_layout_8o;;@;F;iO[o;.;"media-layout-9;@;/"media_layout_9o;;@;F;iP[o;.;"media-layout-10;@;/"media_layout_10o;;@;F;iQo;
-
-;;;@;	[ ;["a/* ---------------------------------------------------------------------------
- * Columns */;ifo;
-
-;;;@;	[ ;["º/* Create a grid element spanning any number of 'columns' in a grid 'context'.
+ * $media-layout-2 ...-10 : [optional] Same as $media-layout-1 */o;;iR;@;"container;	T;
+[o;;iS;0;@;"media-layouts;o;-;'{ ;iS;@;"compact;(0;)[o;.	;iS;@;"media-layout-2;/"media_layout_2o;.	;iS;@;"media-layout-3;/"media_layout_3o;.	;iS;@;"media-layout-4;/"media_layout_4o;.	;iS;@;"media-layout-5;/"media_layout_5o;.	;iS;@;"media-layout-6;/"media_layout_6o;.	;iS;@;"media-layout-7;/"media_layout_7o;.	;iS;@;"media-layout-8;/"media_layout_8o;.	;iS;@;"media-layout-9;/"media_layout_9o;.	;iS;@;"media-layout-10;/"media_layout_10;
+[ u;05[o:Sass::Script::Funcall:@keywords{ :
+@lineiU:@options{ :
+@name"is-default-layout:@splat0:
+@args[o:Sass::Script::Variable	;iU;@;	"media-layout-1:@underscored_name"media_layout_1u:Sass::Tree::IfNode[00[o:Sass::Tree::MixinNode:@keywords{ :
+@lineiX:@options{ :
+@name"at-breakpoint:@has_childrenT:@children[o; ;{ ;iY;@	;	"apply-container;[ :@splat0:
+@args[ ;0;[o:Sass::Script::Variable	;iX;@	;	"media-layout-1:@underscored_name"media_layout_1[o:Sass::Tree::MixinNode;{ ;iV;@;	"apply-container:@children[ ;
+0;[ o:Sass::Tree::EachNode;i];@:	@var"ml:
+@listo;.	;i];@;"media-layouts;/"media_layouts;	T;
+[u;0[o:Sass::Script::Variable	:
+@linei^:@options{ :
+@name"ml:@underscored_name"ml0[o:Sass::Tree::MixinNode:@keywords{ ;i_;@;"at-breakpoint:@has_childrenT:@children[o;
+;{ ;i`;@;"set-container-width;[ :@splat0:
+@args[ ;0;[o; 	;i_;@;"ml;	"ml;(0;)[[o;.;@;"media-layout-1;/"media_layout_1o;.	;iH;@;"total-columns;/"total_columns[o;.;@;"media-layout-2;/"media_layout_2o;;iI;@;F[o;.;@;"media-layout-3;/"media_layout_3o;;iJ;@;F[o;.;@;"media-layout-4;/"media_layout_4o;;iK;@;F[o;.;@;"media-layout-5;/"media_layout_5o;;iL;@;F[o;.;@;"media-layout-6;/"media_layout_6o;;iM;@;F[o;.;@;"media-layout-7;/"media_layout_7o;;iN;@;F[o;.;@;"media-layout-8;/"media_layout_8o;;iO;@;F[o;.;@;"media-layout-9;/"media_layout_9o;;iP;@;F[o;.;@;"media-layout-10;/"media_layout_10o;;iQ;@;Fo;
+;if;@;
+[ ;;;["a/* ---------------------------------------------------------------------------
+ * Columns */o;
+;ii;@;
+[ ;;;["º/* Create a grid element spanning any number of 'columns' in a grid 'context'.
  * $columns : The number of columns to span.
  * $context : [optional] The context (columns spanned by parent).
  *          : Context is required on any nested elements.
@@ -412,173 +441,253 @@ right;@;i ;	[ ;2;3;o;;;;@;"	auto;i>;2;3;o;;;;@;" ;i>;0;i9
  *          : Padding is only output if one or two values are specified (e.g. 1em or 10px 20px)
  *          : Padding values are applied only on the horizontal axis in from-to order
  * $from    : The start direction of your layout (e.g. 'left' for ltr languages)
- * $style   : The container style to use. */;iio;;"span-columns;T;@;	[o;;o;-;"unquote;@;0;iz;{ ;[o;.	;"	from;@;/"	from;iz;"	from;@;	[ ;0;izo;;o;-;"opposite-position;@;0;i{;{ ;[o;.	;"	from;@;/"	from;i{;"to;@;	[ ;0;i{o;;o;-;"split-columns-value;@;0;i|;{ ;[o;.	;"columns;@;/"columns;i|o;	;;;@;"position;i|;"pos;@;	[ ;0;i|o;;o;-;"split-columns-value;@;0;i};{ ;[o;.	;"columns;@;/"columns;i}o;	;;;@;"columns;i};"	cols;@;	[ ;0;i}o;;o;-;"if;@;0;i~;{ ;[o:Sass::Script::Operation
-:@operator:eq;@:@operand2o;	;;;@;"static;i~:@operand1o;.	;"
-style;@;/"
-style;i~;i~o;7
-;8:
-times;@;:o;.	;"gutter-width;@;/"gutter_width;i~;;o:Sass::Script::Number:@numerator_units[ ;@:@original"0;i :@denominator_units[ ;i~;i~o;-;"relative-width;@;0;i~;{ ;[o;7
-;8;<;@;:o;.	;"gutter-width;@;/"gutter_width;i~;;o;=;>[ ;@;?"0;i ;@@I;i~;i~o;.	;"context;@;/"context;i~;"pad-from;@;	[ ;0;i~o;;o;-;"if;@;0;i;{ ;[o;7
-;8;9;@;:o;	;;;@;"static;i;;o;.	;"
-style;@;/"
-style;i;io;7
-;8;<;@;:o;.	;"gutter-width;@;/"gutter_width;i;;o;=;>[ ;@;?"0;i ;@@I;i;io;-;"relative-width;@;0;i;{ ;[o;7
-;8;<;@;:o;.	;"gutter-width;@;/"gutter_width;i;;o;=;>[ ;@;?"0;i ;@@I;i;io;.	;"context;@;/"context;i;"pad-to;@;	[ ;0;iu;04[o:Sass::Script::Operation
-:@operator:neq:@options{ :@operand2o:Sass::Script::Bool;@:@valueF:
-@linei|:@operand1o:Sass::Script::Variable	:
-@name"padding;@:@underscored_name"padding;i|;i|0[o:Sass::Tree::VariableNode:
-@expro:Sass::Script::Funcall;"nth;@:@splat0;i}:@keywords{ :
-@args[o;	;"padding;@;"padding;i}o:Sass::Script::Number:@numerator_units[ ;@:@original"1;i:@denominator_units[ ;i};"pad-from;@:@children[ :@guarded0;i}u:Sass::Tree::IfNode“[o:Sass::Script::Operation
-:@operator:gt:@options{ :@operand2o:Sass::Script::Number:@numerator_units[ ;@:@original"1:@valuei:@denominator_units[ :
-@linei:@operand1o:Sass::Script::Funcall:
-@name"length;@:@splat0;i:@keywords{ :
-@args[o:Sass::Script::Variable	;"padding;@:@underscored_name"padding;i;iu:Sass::Tree::IfNode¥[00[o:Sass::Tree::VariableNode:
-@expro:Sass::Script::Variable	:
-@name"pad-from:@options{ :@underscored_name"pad_from:
-@lineiÇ;"pad-to;	@
-:@children[ :@guarded0;iÇ[o:Sass::Tree::VariableNode:
-@expro;;"nth;@;0;iÄ;{ ;[o;	;"padding;@;"padding;iÄo;
-;[ ;@;"2;i;@;iÄ;"pad-to;@:@children[ :@guarded0;iÄo;;o;;"if;@;0;iÖ;{ ;[o; 
-;:eq;@;	o:Sass::Script::String	:
-@type:identifier;@;"static;iÖ;o;	;"
-style;@;"
-style;iÖ;iÖo;	;"pad-from;@;"pad_from;iÖo;;"relative-width;@;0;iÖ;{ ;[o;	;"pad-from;@;"pad_from;iÖo;	;"context;@;"context;iÖ;"pad-from;@;[ ;0;iÖo;;o;;"if;@;0;iÜ;{ ;[o; 
-;;;@;	o;	; ;!;@;"static;iÜ;o;	;"
-style;@;"
-style;iÜ;iÜo;	;"pad-to;@;"pad_to;iÜo;;"relative-width;@;0;iÜ;{ ;[o;	;"pad-to;@;"pad_to;iÜo;	;"context;@;"context;iÜ;"pad-to;@;[ ;0;iÜo:Sass::Tree::PropNode;["padding-o;	;"	from;@;"	from;ià;@:
-@tabsi ;[ :@prop_syntax:new;o;	;"pad-from;@;"pad_from;ià;iào;";["padding-o;	;"to;@;"to;iâ;@;#i ;[ ;$;%;o;	;"pad-to;@;"pad_to;iâ;iâo;1;["
-width;@;i ;	[ ;2;3;o;7
-;8:
-minus;@;:o;-;"if;@;0;iå;{ ;[o;.	;"border-box-sizing;@;/"border_box_sizing;iåo;=;>[ ;@;?"0;i ;@@I;iåo;7
-;8:	plus;@;:o;.	;"pad-from;@;/"pad_from;iå;;o;.	;"pad-to;@;/"pad_to;iå;iå;;o;-;"columns;@;0;iå;{ ;[o;.	;"	cols;@;/"	cols;iåo;.	;"context;@;/"context;iåo;.	;"
-style;@;/"
-style;iå;iå;iåu;0([o:Sass::Script::Operation
-:@operator:eq:@options{ :@operand2o:Sass::Script::String	:
-@type:string;@:@value"
-omega:
-@lineié:@operand1o:Sass::Script::Variable	:
-@name"pos;@:@underscored_name"pos;ié;iéu:Sass::Tree::IfNode∫[00[o:Sass::Tree::PropNode:
+ * $style   : The container style to use. */o;;iy;@;"span-columns;	T;
+[o;;iz;0;@;"	from;o;-;'{ ;iz;@;"unquote;(0;)[o;.	;iz;@;"	from;/"	from;
+[ o;;i{;0;@;"to;o;-;'{ ;i{;@;"opposite-position;(0;)[o;.	;i{;@;"	from;/"	from;
+[ o;;i|;0;@;"pos;o;-;'{ ;i|;@;"split-columns-value;(0;)[o;.	;i|;@;"columns;/"columnso;*	;i|;@;;+;"position;
+[ o;;i};0;@;"	cols;o;-;'{ ;i};@;"split-columns-value;(0;)[o;.	;i};@;"columns;/"columnso;*	;i};@;;+;"columns;
+[ o;;i~;0;@;"pad-from;o;-;'{ ;i~;@;"if;(0;)[o:Sass::Script::Operation
+;i~:@operand1o;.	;i~;@;"
+style;/"
+style;@:@operator:eq:@operand2o;*	;i~;@;;+;"statico;7
+;i~;8o:Sass::Script::Number;i~;@:@denominator_units[ :@numerator_units[ :@original"0;i ;@;9:
+times;;o;.	;i~;@;"gutter-width;/"gutter_widtho;-;'{ ;i~;@;"relative-width;(0;)[o;7
+;i~;8o;<;i~;@;=@E;>[ ;?"0;i ;@;9;@;;o;.	;i~;@;"gutter-width;/"gutter_widtho;.	;i~;@;"context;/"context;
+[ o;;i;0;@;"pad-to;o;-;'{ ;i;@;"if;(0;)[o;7
+;i;8o;.	;i;@;"
+style;/"
+style;@;9;:;;o;*	;i;@;;+;"statico;7
+;i;8o;<;i;@;=@E;>[ ;?"0;i ;@;9;@;;o;.	;i;@;"gutter-width;/"gutter_widtho;-;'{ ;i;@;"relative-width;(0;)[o;7
+;i;8o;<;i;@;=@E;>[ ;?"0;i ;@;9;@;;o;.	;i;@;"gutter-width;/"gutter_widtho;.	;i;@;"context;/"context;
+[ u;04[o:Sass::Script::Operation
+:
+@linei|:@operand1o:Sass::Script::Variable	;i|:@options{ :
+@name"padding:@underscored_name"padding;	@:@operator:neq:@operand2o:Sass::Script::Bool;i|;	@:@valueF0[o:Sass::Tree::VariableNode;i}:@guarded0;	@;
+"pad-from:
+@expro:Sass::Script::Funcall:@keywords{ ;i};	@;
+"nth:@splat0:
+@args[o;	;i};	@;
+"padding;"paddingo:Sass::Script::Number;i};	@:@denominator_units[ :@numerator_units[ :@original"1;i:@children[ u:Sass::Tree::IfNode“[o:Sass::Script::Operation
+:
+@linei:@operand1o:Sass::Script::Funcall:@keywords{ ;i:@options{ :
+@name"length:@splat0:
+@args[o:Sass::Script::Variable	;i;
+@	;"padding:@underscored_name"padding;
+@	:@operator:gt:@operand2o:Sass::Script::Number;i;
+@	:@denominator_units[ :@numerator_units[ :@original"1:@valueiu:Sass::Tree::IfNode¥[00[o:Sass::Tree::VariableNode:
+@lineiÇ:@guarded0:@options{ :
+@name"pad-to:
+@expro:Sass::Script::Variable	;iÇ;@;	"pad-from:@underscored_name"pad_from:@children[ [o:Sass::Tree::VariableNode;iÄ:@guarded0;
+@	;"pad-to:
+@expro;;	{ ;iÄ;
+@	;"nth;0;[o;	;iÄ;
+@	;"padding;"paddingo;;iÄ;
+@	;@;[ ;"2;i:@children[ o;;iÖ;0;	@;
+"pad-from;o;;{ ;iÖ;	@;
+"if;0;[o; 
+;iÖ;o;	;iÖ;	@;
+"
+style;"
+style;	@;:eq;o:Sass::Script::String	;iÖ;	@:
+@type:identifier;"statico;	;iÖ;	@;
+"pad-from;"pad_fromo;;{ ;iÖ;	@;
+"relative-width;0;[o;	;iÖ;	@;
+"pad-from;"pad_fromo;	;iÖ;	@;
+"context;"context;[ o;;iÜ;0;	@;
+"pad-to;o;;{ ;iÜ;	@;
+"if;0;[o; 
+;iÜ;o;	;iÜ;	@;
+"
+style;"
+style;	@;;;o;	;iÜ;	@; ;!;"statico;	;iÜ;	@;
+"pad-to;"pad_too;;{ ;iÜ;	@;
+"relative-width;0;[o;	;iÜ;	@;
+"pad-to;"pad_too;	;iÜ;	@;
+"context;"context;[ o:Sass::Tree::PropNode;ià;	@;
+["padding-o;	;ià;	@;
+"	from;"	from:@prop_syntax:new;[ :
+@tabsi ;o;	;ià;	@;
+"pad-from;"pad_fromo;";iâ;	@;
+["padding-o;	;iâ;	@;
+"to;"to;#;$;[ ;%i ;o;	;iâ;	@;
+"pad-to;"pad_too;1;iå;@;["
+width;2;3;
+[ ;,i ;o;7
+;iå;8o;-;'{ ;iå;@;"columns;(0;)[o;.	;iå;@;"	cols;/"	colso;.	;iå;@;"context;/"contexto;.	;iå;@;"
+style;/"
+style;@;9:
+minus;;o;-;'{ ;iå;@;"if;(0;)[o;.	;iå;@;"border-box-sizing;/"border_box_sizingo;<;iå;@;=@E;>[ ;?"0;i o;7
+;iå;8o;.	;iå;@;"pad-to;/"pad_to;@;9:	plus;;o;.	;iå;@;"pad-from;/"pad_fromu;0([o:Sass::Script::Operation
+:
+@lineié:@operand1o:Sass::Script::Variable	;ié:@options{ :
+@name"pos:@underscored_name"pos;	@:@operator:eq:@operand2o:Sass::Script::String	;ié;	@:
+@type:string:@value"
+omegau:Sass::Tree::IfNode∫[00[o:Sass::Tree::PropNode:
+@lineië:@options{ :
 @name["
-float:@options{ :
-@tabsi :@children[ :@prop_syntax:new:@valueo:Sass::Script::Variable	;"	from;@
-:@underscored_name"	from:
-@lineië;iëo; ;["margin-o;	;"to;@
-;"to;ií;@
-;i ;	[ ;
-;;o:Sass::Script::Funcall;"gutter;@
-:@splat0;ií:@keywords{ :
-@args[o;	;"context;@
-;"context;iío;	;"
-style;@
-;"
-style;ií;iíu:Sass::Tree::IfNode[o:Sass::Script::Variable	:
-@name"legacy-support-for-ie6:@options{ :@underscored_name"legacy_support_for_ie6:
-@lineiì0[o:Sass::Tree::PropNode;["display;@:
-@tabsi :@children[ :@prop_syntax:new:@valueo:Sass::Script::String:
-@type:identifier;@;"inline;	iì[o:Sass::Tree::MixinNode;"
-omega;@:@children[ :@splat0;iè:@keywords{ :
-@args[o;	;"	from;@;"	from;iè;0;iy;[
-[o;.;"columns;@;/"columns0[o;.;"context;@;/"contexto;.	;"total-columns;@;/"total_columns;iu[o;.;"padding;@;/"paddingo;;@;F;iv[o;.;"	from;@;/"	fromo;.	;"from-direction;@;/"from_direction;iw[o;.;"
-style;@;/"
-styleo;-;"fix-static-misalignment;@;0;ix;{ ;[ o;
-
-;;;@;	[ ;["ÿ/* Apply to elements spanning the last column, to account for the page edge.
+float:@prop_syntax:new:@children[ :
+@tabsi :@valueo:Sass::Script::Variable	;ië;@;"	from:@underscored_name"	fromo; ;ií;@;["margin-o;	;ií;@;"to;"to;	;
+;[ ;i ;o:Sass::Script::Funcall:@keywords{ ;ií;@;"gutter:@splat0:
+@args[o;	;ií;@;"context;"contexto;	;ií;@;"
+style;"
+styleu:Sass::Tree::IfNode[o:Sass::Script::Variable	:
+@lineiì:@options{ :
+@name"legacy-support-for-ie6:@underscored_name"legacy_support_for_ie60[o:Sass::Tree::PropNode;iì;@;["display:@prop_syntax:new:@children[ :
+@tabsi :@valueo:Sass::Script::String;@:
+@type:identifier;"inline[o:Sass::Tree::MixinNode:@keywords{ ;iè;	@;
+"
+omega:@children[ :@splat0:
+@args[o;	;iè;	@;
+"	from;"	from;(0;)[
+[o;.;@;"columns;/"columns0[o;.;@;"context;/"contexto;.	;iu;@;"total-columns;/"total_columns[o;.;@;"padding;/"paddingo;;iv;@;F[o;.;@;"	from;/"	fromo;.	;iw;@;"from-direction;/"from_direction[o;.;@;"
+style;/"
+styleo;-;'{ ;ix;@;"fix-static-misalignment;(0;)[ o;
+;ió;@;
+[ ;;;["ÿ/* Apply to elements spanning the last column, to account for the page edge.
  * Only needed as an override. Normally 'omega' can just be called by `columns`.
  *
- * $from    : The start-direction for your document. */;ióo;;"
-omega;T;@;	[o;;o;-;"unquote;@;0;iû;{ ;[o;.	;"	from;@;/"	from;iû;"	from;@;	[ ;0;iûo;;o;-;"opposite-position;@;0;iü;{ ;[o;.	;"	from;@;/"	from;iü;"to;@;	[ ;0;iüo;;o;-;"opposite-position;@;0;i†;{ ;[o;.	;"omega-float;@;/"omega_float;i†;"	hack;@;	[ ;0;i†o;1;["
-float;@;i ;	[ ;2;3;o;.	;"omega-float;@;/"omega_float;i¢;i¢o;1;["margin-o;.	;"to;@;/"to;i£;@;i ;	[ ;2;3;o;;;;@;"0;i£u;0"[o:Sass::Script::Operation
-:@operator:or:@options{ :@operand2o:Sass::Script::Variable	:
-@name"legacy-support-for-ie7;@:@underscored_name"legacy_support_for_ie7:
-@linei•:@operand1o;
-	;"legacy-support-for-ie6;@;"legacy_support_for_ie6;i•;i•0[o:Sass::Tree::PropNode;["*margin-o;
-	;"	hack;@;"	hack;i¶;@:
-@tabsi :@children[ :@prop_syntax:new:@valueo:!Sass::Script::UnaryOperation	;:
-minus;@:@operando;
-	;"gutter-width;@;"gutter_width;i¶;i¶;i¶u:Sass::Tree::IfNode[o:Sass::Script::Variable	:
-@name"legacy-support-for-ie6:@options{ :@underscored_name"legacy_support_for_ie6:
-@lineiß0[o:Sass::Tree::PropNode;["display;@:
-@tabsi :@children[ :@prop_syntax:new:@valueo:Sass::Script::String:
-@type:identifier;@;"inline;	iß;0;iù;[[o;.;"	from;@;/"	fromo;.	;"from-direction;@;/"from_direction;iúo;
-
-;;;@;	[ ;["Î/* Shortcut to apply omega to a specific subset of elements.
+ * $from    : The start-direction for your document. */o;;iù;@;"
+omega;	T;
+[o;;iû;0;@;"	from;o;-;'{ ;iû;@;"unquote;(0;)[o;.	;iû;@;"	from;/"	from;
+[ o;;iü;0;@;"to;o;-;'{ ;iü;@;"opposite-position;(0;)[o;.	;iü;@;"	from;/"	from;
+[ o;;i†;0;@;"	hack;o;-;'{ ;i†;@;"opposite-position;(0;)[o;.	;i†;@;"omega-float;/"omega_float;
+[ o;1;i¢;@;["
+float;2;3;
+[ ;,i ;o;.	;i¢;@;"omega-float;/"omega_floato;1;i£;@;["margin-o;.	;i£;@;"to;/"to;2;3;
+[ ;,i ;o;*;@;;+;"0u;0"[o:Sass::Script::Operation
+:
+@linei•:@operand1o:Sass::Script::Variable	;i•:@options{ :
+@name"legacy-support-for-ie6:@underscored_name"legacy_support_for_ie6;	@:@operator:or:@operand2o;	;i•;	@;
+"legacy-support-for-ie7;"legacy_support_for_ie70[o:Sass::Tree::PropNode;i¶;	@;
+["*margin-o;	;i¶;	@;
+"	hack;"	hack:@prop_syntax:new:@children[ :
+@tabsi :@valueo:!Sass::Script::UnaryOperation	;i¶;	@;:
+minus:@operando;	;i¶;	@;
+"gutter-width;"gutter_widthu:Sass::Tree::IfNode[o:Sass::Script::Variable	:
+@lineiß:@options{ :
+@name"legacy-support-for-ie6:@underscored_name"legacy_support_for_ie60[o:Sass::Tree::PropNode;iß;@;["display:@prop_syntax:new:@children[ :
+@tabsi :@valueo:Sass::Script::String;@:
+@type:identifier;"inline;(0;)[[o;.;@;"	from;/"	fromo;.	;iú;@;"from-direction;/"from_directiono;
+;i´;@;
+[ ;;;["Î/* Shortcut to apply omega to a specific subset of elements.
  *
  * $n         : [first | only | last | <equation>]
  * $selector  : [child | last-child | of-type | last-of-type ]
- * $from      : The start-direction for your document. */;i´o;;"nth-omega;T;@;	[o;;o;-;"unquote;@;0;iµ;{ ;[o;.	;"	from;@;/"	from;iµ;"	from;@;	[ ;0;iµo;;o;-;"if;@;0;i∂;{ ;[o;7
-;8;9;@;:o;	;:string;@;"
-first;i∂;;o;.	;"n;@;/"n;i∂;i∂o;;@;T;i∂o;;@;F;i∂;"ie;@;	[ ;0;i∂o;;"adjust-support-for;T;@;	[o;;T;@;i ;	[o;;"
-omega;@;	[ ;0;i∏;{ ;[o;.	;"	from;@;/"	from;i∏; ["&:o;-;"format-nth;@;0;i∏;{ ;[o;.	;"n;@;/"n;i∏o;.	;"selector;@;/"selector;i∏;i∏;0;i∑;{"ie7o;.	;"ie;@;/"ie;i∑"ie8o;.	;"ie;@;/"ie;i∑"ie6o;.	;"ie;@;/"ie;i∑;[ ;0;i¥;[[o;.;"n;@;/"no;	;;;@;"	last;i±[o;.;"selector;@;/"selectoro;	;;;@;"
-child;i≤[o;.;"	from;@;/"	fromo;.	;"from-direction;@;/"from_direction;i≥o;
-
-;;;@;	[ ;["`/* ---------------------------------------------------------------------------
- * Resets */;iºo;
-
-;;;@;	[ ;["ë/* Reset a '+columns' grid element to default block behavior
+ * $from      : The start-direction for your document. */o;;i¥;@;"nth-omega;	T;
+[o;;iµ;0;@;"	from;o;-;'{ ;iµ;@;"unquote;(0;)[o;.	;iµ;@;"	from;/"	from;
+[ o;;i∂;0;@;"ie;o;-;'{ ;i∂;@;"if;(0;)[o;7
+;i∂;8o;.	;i∂;@;"n;/"n;@;9;:;;o;*	;i∂;@;:string;"
+firsto;;i∂;@;To;;i∂;@;F;
+[ o;&;'{"ie8o;.	;i∑;@;"ie;/"ie"ie7o;.	;i∑;@;"ie;/"ie"ie6o;.	;i∑;@;"ie;/"ie;i∑;@;"adjust-support-for;	T;
+[o;;["&:o;-;'{ ;i∏;@;"format-nth;(0;)[o;.	;i∏;@;"n;/"no;.	;i∏;@;"selector;/"selector;i∏;@;	T;
+[o;&;'{ ;i∏;@;"
+omega;
+[ ;(0;)[o;.	;i∏;@;"	from;/"	from;,i ;(0;)[ ;(0;)[[o;.;@;"n;/"no;*	;i±;@;;+;"	last[o;.;@;"selector;/"selectoro;*	;i≤;@;;+;"
+child[o;.;@;"	from;/"	fromo;.	;i≥;@;"from-direction;/"from_directiono;
+;iº;@;
+[ ;;;["`/* ---------------------------------------------------------------------------
+ * Resets */o;
+;iø;@;
+[ ;;;["ë/* Reset a '+columns' grid element to default block behavior
  *
- * $from  : The start direction of your layout (e.g. 'left' for ltr languages) */;iøo;;"reset-columns;T;@;	[o;;o;-;"unquote;@;0;i≈;{ ;[o;.	;"	from;@;/"	from;i≈;"	from;@;	[ ;0;i≈o;;o;-;"opposite-position;@;0;i∆;{ ;[o;.	;"	from;@;/"	from;i∆;"to;@;	[ ;0;i∆o;;o;-;"opposite-position;@;0;i«;{ ;[o;.	;"omega-float;@;/"omega_float;i«;"	hack;@;	[ ;0;i«o;1;["
-float;@;i ;	[ ;2;3;o;;;;@;"	none;i…o;1;["
-width;@;i ;	[ ;2;3;o;;;;@;"	auto;i o;1;["margin-o;.	;"to;@;/"to;iÀ;@;i ;	[ ;2;3;o;;;;@;"	auto;iÀu;0Ô[o:Sass::Script::Operation
-:@operator:or:@options{ :@operand2o:Sass::Script::Variable	:
-@name"legacy-support-for-ie7;@:@underscored_name"legacy_support_for_ie7:
-@lineiÕ:@operand1o;
-	;"legacy-support-for-ie6;@;"legacy_support_for_ie6;iÕ;iÕ0[o:Sass::Tree::PropNode;["*margin-o;
-	;"	hack;@;"	hack;iŒ;@:
-@tabsi :@children[ :@prop_syntax:new:@valueo:Sass::Script::String:
-@type:identifier;@;"	auto;iŒu:Sass::Tree::IfNode[o:Sass::Script::Variable	:
-@name"legacy-support-for-ie6:@options{ :@underscored_name"legacy_support_for_ie6:
-@lineiœ0[o:Sass::Tree::PropNode;["display;@:
-@tabsi :@children[ :@prop_syntax:new:@valueo:Sass::Script::String:
-@type:identifier;@;"
-block;	iœ;0;iƒ;[[o;.;"	from;@;/"	fromo;.	;"from-direction;@;/"from_direction;i√o;
-
-;;;@;	[ ;["/* Apply to elements previously set as omega.
+ * $from  : The start direction of your layout (e.g. 'left' for ltr languages) */o;;iƒ;@;"reset-columns;	T;
+[o;;i≈;0;@;"	from;o;-;'{ ;i≈;@;"unquote;(0;)[o;.	;i≈;@;"	from;/"	from;
+[ o;;i∆;0;@;"to;o;-;'{ ;i∆;@;"opposite-position;(0;)[o;.	;i∆;@;"	from;/"	from;
+[ o;;i«;0;@;"	hack;o;-;'{ ;i«;@;"opposite-position;(0;)[o;.	;i«;@;"omega-float;/"omega_float;
+[ o;1;i…;@;["
+float;2;3;
+[ ;,i ;o;*;@;;+;"	noneo;1;i ;@;["
+width;2;3;
+[ ;,i ;o;*;@;;+;"	autoo;1;iÀ;@;["margin-o;.	;iÀ;@;"to;/"to;2;3;
+[ ;,i ;o;*;@;;+;"	autou;0Ô[o:Sass::Script::Operation
+:
+@lineiÕ:@operand1o:Sass::Script::Variable	;iÕ:@options{ :
+@name"legacy-support-for-ie6:@underscored_name"legacy_support_for_ie6;	@:@operator:or:@operand2o;	;iÕ;	@;
+"legacy-support-for-ie7;"legacy_support_for_ie70[o:Sass::Tree::PropNode;iŒ;	@;
+["*margin-o;	;iŒ;	@;
+"	hack;"	hack:@prop_syntax:new:@children[ :
+@tabsi :@valueo:Sass::Script::String;	@:
+@type:identifier;"	autou:Sass::Tree::IfNode[o:Sass::Script::Variable	:
+@lineiœ:@options{ :
+@name"legacy-support-for-ie6:@underscored_name"legacy_support_for_ie60[o:Sass::Tree::PropNode;iœ;@;["display:@prop_syntax:new:@children[ :
+@tabsi :@valueo:Sass::Script::String;@:
+@type:identifier;"
+block;(0;)[[o;.;@;"	from;/"	fromo;.	;i√;@;"from-direction;/"from_directiono;
+;i”;@;
+[ ;;;["/* Apply to elements previously set as omega.
  * This will return floats and margins back to non-omega settigns.
  *
  * $context : [optional] The context (columns spanned by parent).
  * $from    : The start-direction for your document.
- * $style   : The container style to use. */;i”o;;"remove-omega;T;@;	[o;;o;-;"unquote;@;0;iﬁ;{ ;[o;.	;"	from;@;/"	from;iﬁ;"	from;@;	[ ;0;iﬁo;;o;-;"opposite-position;@;0;iﬂ;{ ;[o;.	;"	from;@;/"	from;iﬂ;"to;@;	[ ;0;iﬂo;;o;-;"opposite-position;@;0;i‡;{ ;[o;.	;"omega-float;@;/"omega_float;i‡;"	hack;@;	[ ;0;i‡o;1;["
-float;@;i ;	[ ;2;3;o;.	;"	from;@;/"	from;i‚;i‚o;1;["margin-o;.	;"to;@;/"to;i„;@;i ;	[ ;2;3;o;-;"gutter;@;0;i„;{ ;[o;.	;"context;@;/"context;i„o;.	;"
-style;@;/"
-style;i„;i„u;0ø[o:Sass::Script::Operation
-:@operator:or:@options{ :@operand2o:Sass::Script::Variable	:
-@name"legacy-support-for-ie7;@:@underscored_name"legacy_support_for_ie7:
-@lineiÂ:@operand1o;
-	;"legacy-support-for-ie6;@;"legacy_support_for_ie6;iÂ;iÂ0[o:Sass::Tree::PropNode;["*margin-o;
-	;"	hack;@;"	hack;iÊ;@:
-@tabsi :@children[ :@prop_syntax:new:@valueo:Sass::Script::String:
-@type:identifier;@;"	auto;iÊ;0;i›;[[o;.;"context;@;/"contexto;.	;"total-columns;@;/"total_columns;i⁄[o;.;"	from;@;/"	fromo;.	;"from-direction;@;/"from_direction;i€[o;.;"
-style;@;/"
-styleo;-;"fix-static-misalignment;@;0;i‹;{ ;[ o;
-
-;;;@;	[ ;["b/* Shortcut to apply remove-omega to a specific subset of elements.
+ * $style   : The container style to use. */o;;i›;@;"remove-omega;	T;
+[o;;iﬁ;0;@;"	from;o;-;'{ ;iﬁ;@;"unquote;(0;)[o;.	;iﬁ;@;"	from;/"	from;
+[ o;;iﬂ;0;@;"to;o;-;'{ ;iﬂ;@;"opposite-position;(0;)[o;.	;iﬂ;@;"	from;/"	from;
+[ o;;i‡;0;@;"	hack;o;-;'{ ;i‡;@;"opposite-position;(0;)[o;.	;i‡;@;"omega-float;/"omega_float;
+[ o;1;i‚;@;["
+float;2;3;
+[ ;,i ;o;.	;i‚;@;"	from;/"	fromo;1;i„;@;["margin-o;.	;i„;@;"to;/"to;2;3;
+[ ;,i ;o;-;'{ ;i„;@;"gutter;(0;)[o;.	;i„;@;"context;/"contexto;.	;i„;@;"
+style;/"
+styleu;0ø[o:Sass::Script::Operation
+:
+@lineiÂ:@operand1o:Sass::Script::Variable	;iÂ:@options{ :
+@name"legacy-support-for-ie6:@underscored_name"legacy_support_for_ie6;	@:@operator:or:@operand2o;	;iÂ;	@;
+"legacy-support-for-ie7;"legacy_support_for_ie70[o:Sass::Tree::PropNode;iÊ;	@;
+["*margin-o;	;iÊ;	@;
+"	hack;"	hack:@prop_syntax:new:@children[ :
+@tabsi :@valueo:Sass::Script::String;	@:
+@type:identifier;"	auto;(0;)[[o;.;@;"context;/"contexto;.	;i⁄;@;"total-columns;/"total_columns[o;.;@;"	from;/"	fromo;.	;i€;@;"from-direction;/"from_direction[o;.;@;"
+style;/"
+styleo;-;'{ ;i‹;@;"fix-static-misalignment;(0;)[ o;
+;iÍ;@;
+[ ;;;["b/* Shortcut to apply remove-omega to a specific subset of elements.
  *
  * $n         : [first | only | last | <equation>]
  * $selector  : [child | last-child | of-type | last-of-type ]
  * $context   : [optional] The context (columns spanned by parent).
  * $from      : The start-direction for your document.
- * $style     : The container style to use. */;iÍo;;"remove-nth-omega;T;@;	[o;;o;-;"unquote;@;0;i¯;{ ;[o;.	;"	from;@;/"	from;i¯;"	from;@;	[ ;0;i¯o;;o;-;"if;@;0;i˘;{ ;[o;7
-;8;9;@;:o;	;;C;@;"
-first;i˘;;o;.	;"n;@;/"n;i˘;i˘o;;@;T;i˘o;;@;F;i˘;"ie;@;	[ ;0;i˘o;;"adjust-support-for;T;@;	[o;;T;@;i ;	[o;;"remove-omega;@;	[ ;0;i¸;{ ;[o;.	;"context;@;/"context;i¸o;.	;"	from;@;/"	from;i¸o;.	;"
-style;@;/"
-style;i¸; ["&:o;-;"format-nth;@;0;i˚;{ ;[o;.	;"n;@;/"n;i˚o;.	;"selector;@;/"selector;i˚;i˚;0;i˙;{"ie7o;.	;"ie;@;/"ie;i˙"ie8o;.	;"ie;@;/"ie;i˙"ie6o;.	;"ie;@;/"ie;i˙;[ ;0;i˜;[
-[o;.;"n;@;/"no;	;;;@;"	last;iÚ[o;.;"selector;@;/"selectoro;	;;;@;"
-child;iÛ[o;.;"context;@;/"contexto;.	;"total-columns;@;/"total_columns;iÙ[o;.;"	from;@;/"	fromo;.	;"from-direction;@;/"from_direction;iı[o;.;"
-style;@;/"
-styleo;-;"fix-static-misalignment;@;0;iˆ;{ ;[ o;
-
-;;;@;	[ ;["i/* ---------------------------------------------------------------------------
- * Change Settings */;io;;"with-grid-settings;T;@;	[o;
-
-;;;@;	[ ;["#/* keep the defaults around */;i
-o;;o;.	;"total-columns;@;/"total_columns;i;"default-columns;@;	[ ;0;io;;o;.	;"column-width;@;/"column_width;i;"default-width;@;	[ ;0;io;;o;.	;"gutter-width;@;/"gutter_width;i;"default-gutter;@;	[ ;0;io;;o;.	;"grid-padding;@;/"grid_padding;i;"default-padding;@;	[ ;0;io;
-
-;;;@;	[ ;["/* use the new settings */;io;;o;.	;"columns;@;/"columns;i;"total-columns;@;	[ ;0;io;;o;.	;"
-width;@;/"
-width;i;"column-width;@;	[ ;0;io;;o;.	;"gutter;@;/"gutter;i;"gutter-width;@;	[ ;0;io;;o;.	;"padding;@;/"padding;i;"grid-padding;@;	[ ;0;io;
-
-;;;@;	[ ;["/* apply to contents */;io:Sass::Tree::ContentNode;@;	[ ;io;
-
-;;;@;	[ ;[""/* re-instate the defaults */;io;;o;.	;"default-columns;@;/"default_columns;i;"total-columns;@;	[ ;0;io;;o;.	;"default-width;@;/"default_width;i;"column-width;@;	[ ;0;io;;o;.	;"default-gutter;@;/"default_gutter;i;"gutter-width;@;	[ ;0;io;;o;.	;"default-padding;@;/"default_padding;i;"grid-padding;@;	[ ;0;i;0;i	;[	[o;.;"columns;@;/"columnso;.	;"total-columns;@;/"total_columns;i[o;.;"
-width;@;/"
-widtho;.	;"column-width;@;/"column_width;i[o;.;"gutter;@;/"guttero;.	;"gutter-width;@;/"gutter_width;i[o;.;"padding;@;/"paddingo;.	;"grid-padding;@;/"grid_padding;i;i
+ * $style     : The container style to use. */o;;i˜;@;"remove-nth-omega;	T;
+[o;;i¯;0;@;"	from;o;-;'{ ;i¯;@;"unquote;(0;)[o;.	;i¯;@;"	from;/"	from;
+[ o;;i˘;0;@;"ie;o;-;'{ ;i˘;@;"if;(0;)[o;7
+;i˘;8o;.	;i˘;@;"n;/"n;@;9;:;;o;*	;i˘;@;;C;"
+firsto;;i˘;@;To;;i˘;@;F;
+[ o;&;'{"ie8o;.	;i˙;@;"ie;/"ie"ie7o;.	;i˙;@;"ie;/"ie"ie6o;.	;i˙;@;"ie;/"ie;i˙;@;"adjust-support-for;	T;
+[o;;["&:o;-;'{ ;i˚;@;"format-nth;(0;)[o;.	;i˚;@;"n;/"no;.	;i˚;@;"selector;/"selector;i˚;@;	T;
+[o;&;'{ ;i¸;@;"remove-omega;
+[ ;(0;)[o;.	;i¸;@;"context;/"contexto;.	;i¸;@;"	from;/"	fromo;.	;i¸;@;"
+style;/"
+style;,i ;(0;)[ ;(0;)[
+[o;.;@;"n;/"no;*	;iÚ;@;;+;"	last[o;.;@;"selector;/"selectoro;*	;iÛ;@;;+;"
+child[o;.;@;"context;/"contexto;.	;iÙ;@;"total-columns;/"total_columns[o;.;@;"	from;/"	fromo;.	;iı;@;"from-direction;/"from_direction[o;.;@;"
+style;/"
+styleo;-;'{ ;iˆ;@;"fix-static-misalignment;(0;)[ o;
+;i;@;
+[ ;;;["i/* ---------------------------------------------------------------------------
+ * Change Settings */o;;i	;@;"with-grid-settings;	T;
+[o;
+;i
+;@;
+[ ;;;["#/* keep the defaults around */o;;i;0;@;"default-columns;o;.	;i;@;"total-columns;/"total_columns;
+[ o;;i;0;@;"default-width;o;.	;i;@;"column-width;/"column_width;
+[ o;;i;0;@;"default-gutter;o;.	;i;@;"gutter-width;/"gutter_width;
+[ o;;i;0;@;"default-padding;o;.	;i;@;"grid-padding;/"grid_padding;
+[ o;
+;i;@;
+[ ;;;["/* use the new settings */o;;i;0;@;"total-columns;o;.	;i;@;"columns;/"columns;
+[ o;;i;0;@;"column-width;o;.	;i;@;"
+width;/"
+width;
+[ o;;i;0;@;"gutter-width;o;.	;i;@;"gutter;/"gutter;
+[ o;;i;0;@;"grid-padding;o;.	;i;@;"padding;/"padding;
+[ o;
+;i;@;
+[ ;;;["/* apply to contents */o:Sass::Tree::ContentNode;i;@;
+[ o;
+;i;@;
+[ ;;;[""/* re-instate the defaults */o;;i;0;@;"total-columns;o;.	;i;@;"default-columns;/"default_columns;
+[ o;;i;0;@;"column-width;o;.	;i;@;"default-width;/"default_width;
+[ o;;i;0;@;"gutter-width;o;.	;i;@;"default-gutter;/"default_gutter;
+[ o;;i;0;@;"grid-padding;o;.	;i;@;"default-padding;/"default_padding;
+[ ;(0;)[	[o;.;@;"columns;/"columnso;.	;i;@;"total-columns;/"total_columns[o;.;@;"
+width;/"
+widtho;.	;i;@;"column-width;/"column_width[o;.;@;"gutter;/"guttero;.	;i;@;"gutter-width;/"gutter_width[o;.;@;"padding;/"paddingo;.	;i;@;"grid-padding;/"grid_padding

@@ -38,6 +38,8 @@ body {
 		font-size: 0.8em;
 	}
 
+
+
 	article header p, article header span {
 		font-size: 1em;
 	}
@@ -55,20 +57,29 @@ body {
 		border-bottom: dotted 1px #000;
 	}
 
+	section p {
+		margin-bottom: 5px;
+	}
+
 	section article ul {
 		margin-left: 20px; 
 		list-style: disc; 
 	}
 
 	section#skills article {
-		@include span-columns(2,12);
-		@include nth-omega(6n);	
+		@include span-columns(2.2,10);
+		@include nth-omega(5n);	
 	}
 
 	section#experience article, section#education article {
 		@include span-columns(6,12);
 		@include nth-omega(2n);
+		min-height: 100px;
 		margin-bottom: 20px;
+	}
+
+	section#experience article:last-child {
+		height: auto;		
 	}
 
 

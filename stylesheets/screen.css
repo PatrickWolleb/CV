@@ -102,16 +102,16 @@ body {
   color: #777;
   font-size: 0.8em;
 }
-/* line 41, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .page article header p, .page article header span {
   font-size: 1em;
 }
-/* line 45, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .page h1 {
   font-size: 30px;
   font-weight: bold;
 }
-/* line 50, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .page section h2 {
   font-size: 20px;
   font-weight: bold;
@@ -119,29 +119,34 @@ body {
   padding-bottom: 10px;
   border-bottom: dotted 1px #000;
 }
-/* line 58, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
+.page section p {
+  margin-bottom: 5px;
+}
+/* line 64, ../sass/screen.scss */
 .page section article ul {
   margin-left: 20px;
   list-style: disc;
 }
-/* line 63, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .page section#skills article {
-  width: 9em;
+  width: 10.8em;
   float: left;
   margin-right: 1em;
   display: inline;
 }
 /* line 184, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.9/sass/susy/_grid.scss */
-.page section#skills article:nth-child(6n) {
+.page section#skills article:nth-child(5n) {
   float: right;
   margin-right: 0;
 }
-/* line 68, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .page section#experience article, .page section#education article {
   width: 29em;
   float: left;
   margin-right: 1em;
   display: inline;
+  min-height: 100px;
   margin-bottom: 20px;
 }
 /* line 184, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.9/sass/susy/_grid.scss */
@@ -149,28 +154,32 @@ body {
   float: right;
   margin-right: 0;
 }
-/* line 75, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
+.page section#experience article:last-child {
+  height: auto;
+}
+/* line 86, ../sass/screen.scss */
 .page section article h1 {
   font-size: 18px;
   margin-bottom: 5px;
 }
-/* line 80, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .page section article header {
   margin-bottom: 10px;
   margin-top: 0px;
 }
-/* line 85, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .page section article footer {
   margin: 0px;
   font-size: 0.8em;
   margin-top: 10px;
   color: #777;
 }
-/* line 93, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .page section article article h1 {
   color: #00f;
 }
-/* line 97, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .page .reference span {
   display: block;
 }
