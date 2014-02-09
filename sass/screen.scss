@@ -78,8 +78,16 @@ body {
 		margin-bottom: 20px;
 	}
 
+	section#experience article {
+		@include span-columns(12,12);			
+	}
+
 	section#experience article:last-child {
 		height: auto;		
+	}
+
+	section#experience article {
+		
 	}
 
 
