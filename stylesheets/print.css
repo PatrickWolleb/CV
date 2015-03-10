@@ -192,8 +192,3 @@ body {
 .page .reference span {
   display: block;
 }
-
-/* line 3, ../sass/print.scss */
-#page-fold {
-  margin-top: 90px;
-}
